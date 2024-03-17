@@ -721,8 +721,8 @@
 //     { name: 'Charlie', age: 25 }
 // ];
 
-// const Newpeople = people.find(function(agepeopl){
-//     return agepeopl.age > 30
+// const Newpeople = people.find(function(FindУear){
+//     return FindУear.age > 30
 // })
 // console.log(Newpeople)
 
@@ -730,9 +730,11 @@
 // ! 4 Создайте массив из чисел. Используя метод find, найдите первый элемент массива, который является четным.
 
 
-// const num = [8,9,10,15,17,1,418,15,85];
+// const num = [9,115,17,1,418,15,85];
 
-// const newnum = num.find(number => number % 2 === 0)
+// const newnum = num.find(function(NewNuM){
+//     return NewNuM % 2 === 0
+// })
 
 // console.log(newnum)
 
@@ -747,3 +749,21 @@
 //     return fru.startsWith('a')
 // })
 // console.log(Arrayfruits);
+
+
+
+
+// ? инициативные задачи
+// ! Верни новый массив из слов начинающие на букву 'a'
+
+// const fruits = ['ananas', 'volga', 'deti', 'abricos', 'deni', 'alavdi'];
+
+// const fur = fruits.filter(function(newA){
+//     return newA.startsWith('a')
+// })
+// console.log(fur)
+
+
+
+
+
